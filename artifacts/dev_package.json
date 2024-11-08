@@ -1,0 +1,72 @@
+{
+	"id": "0b679f86-ad1d-43fc-91d3-0cb30baf5239",
+	"createdAt": "2024-11-07T09:28:53.000Z",
+	"createdBy": "admin",
+	"git": {
+		"remote": "https://github.com/neptune-software-marketplace/neptunesoftware-dxp-abb-sockets-leaflet.git"
+	},
+	"name": "neptunesoftware-dxp-abb-sockets-leaflet",
+	"description": "A Redis example with realtime location sharing",
+	"ver": "24.11.08.1035",
+	"enableCICD": true,
+	"apps": [
+		{
+			"id": "56983bb0-38bc-4458-b4a9-aad45a584fec",
+			"application": "location_sharing",
+			"title": "",
+			"description": "",
+			"package": {
+				"id": "0b679f86-ad1d-43fc-91d3-0cb30baf5239"
+			}
+		}
+	],
+	"api": [],
+	"odataSource": [],
+	"odataMock": [],
+	"dictionary": [],
+	"jsclass": [],
+	"jsscript_group": [],
+	"theme": [],
+	"pdf": [],
+	"rulesengine": [],
+	"reports": [],
+	"api_authentication": [],
+	"api_group": [],
+	"tile": [],
+	"category": [],
+	"launchpad": [],
+	"certificates": [],
+	"role": [],
+	"systems": [],
+	"doc": [],
+	"wf_notifications": [],
+	"department": [],
+	"script_scheduler": [],
+	"wf_definition": [],
+	"connector": [],
+	"events": [
+		{
+			"id": "9b197c55-860f-4c65-99b9-0be59db0e6b2",
+			"name": "userJoined",
+			"description": null
+		},
+		{
+			"id": "726e15d8-62f0-408a-931a-828831917983",
+			"name": "updateLocation",
+			"description": null
+		},
+		{
+			"id": "2e049211-5f9c-43bf-9cd9-691001cd976d",
+			"name": "sendUserData",
+			"description": null
+		},
+		{
+			"id": "1e0dd769-fa3c-48ce-a837-39e758ac3a6b",
+			"name": "userLeft",
+			"description": null
+		}
+	],
+	"code_snippets": [],
+	"wf_determination": [],
+	"wf_taskaction": []
+}

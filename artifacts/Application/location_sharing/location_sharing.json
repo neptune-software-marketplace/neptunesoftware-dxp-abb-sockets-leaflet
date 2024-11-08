@@ -1,0 +1,470 @@
+{
+	"id": "56983bb0-38bc-4458-b4a9-aad45a584fec",
+	"createdAt": "2024-11-08T10:02:54.000Z",
+	"createdBy": "admin",
+	"objects": [
+		{
+			"fieldNo": "b123dc65-40a8-4dd2-c21d-96b26eb6575b",
+			"fieldName": "App",
+			"fieldParent": 0,
+			"fieldType": "sap.m.App",
+			"script": "",
+			"customComponent": false,
+			"request": [],
+			"response": [],
+			"attributes": [],
+			"data": [
+				{
+					"fieldNo": "ed693d7a-e776-465e-d818-8cd4e5495ac8",
+					"fieldName": "initPage",
+					"fieldParent": "b123dc65-40a8-4dd2-c21d-96b26eb6575b",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "280d14a3-d444-46d8-a584-7e2ff831d966",
+							"fieldName": "illustratedMsgWaitRoom",
+							"fieldParent": "ed693d7a-e776-465e-d818-8cd4e5495ac8",
+							"fieldType": "sap.m.IllustratedMessage",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "description",
+									"grouping": "Properties",
+									"value": "Call the 'initializeUser' function  in the console to start the mock streaming data generation",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "illustrationSize",
+									"grouping": "Properties",
+									"value": "Scene",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "illustrationType",
+									"grouping": "Properties",
+									"value": "sapIllus-Connection",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "title",
+									"grouping": "Properties",
+									"value": "Socket connection",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "127c3336-1907-4157-fa56-771f38200c12",
+					"fieldName": "mapPage",
+					"fieldParent": "b123dc65-40a8-4dd2-c21d-96b26eb6575b",
+					"fieldType": "sap.m.Page",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [
+						{
+							"attribute": "showSubHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						},
+						{
+							"attribute": "showHeader",
+							"grouping": "Properties",
+							"value": "false",
+							"script": "",
+							"translation": []
+						}
+					],
+					"data": [
+						{
+							"fieldNo": "f703b9c1-19ec-40d1-9bef-6afa74e95625",
+							"fieldName": "oBarCustomHeader",
+							"fieldParent": "127c3336-1907-4157-fa56-771f38200c12",
+							"fieldType": "sap.m.Bar",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "position",
+									"grouping": "Parent",
+									"value": "addContent",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "53e5f151-45d4-47c2-b2a6-b676da1a9630",
+									"fieldName": "Middle",
+									"fieldParent": "f703b9c1-19ec-40d1-9bef-6afa74e95625",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentMiddle",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "bf80e05d-8bd1-448d-d5f7-be992c488db3",
+											"fieldName": "Title",
+											"fieldParent": "53e5f151-45d4-47c2-b2a6-b676da1a9630",
+											"fieldType": "sap.m.Title",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								}
+							]
+						},
+						{
+							"fieldNo": "440cad4c-094b-4d68-b143-df80b3e965ea",
+							"fieldName": "HTMLObject",
+							"fieldParent": "127c3336-1907-4157-fa56-771f38200c12",
+							"fieldType": "sap.ui.core.HTML",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "visible",
+									"grouping": "Properties",
+									"value": "false",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "ea8e0cc4-b9c9-4dff-fe97-bbec97abe074",
+									"fieldName": "HTML",
+									"fieldParent": "440cad4c-094b-4d68-b143-df80b3e965ea",
+									"fieldType": "neptune.Html",
+									"script": "file://script/neptune.Html/HTML.script",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [],
+									"data": []
+								}
+							]
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99999,
+			"data": [
+				{
+					"fieldNo": "a2215262-b7b3-4e59-b786-ed948d0e67ac",
+					"fieldName": "Data",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "c227e7cc-b6b1-4513-8929-8a2eb5ad82db",
+							"fieldName": "Data",
+							"fieldParent": "a2215262-b7b3-4e59-b786-ed948d0e67ac",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/Data/Data.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "d3c44e82-2ac1-4149-ad7c-cc773e31350e",
+					"fieldName": "JavaScript",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "0244f3d3-fbec-4fbd-987f-387e754faf2c",
+							"fieldName": "Generators",
+							"fieldParent": "d3c44e82-2ac1-4149-ad7c-cc773e31350e",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/JavaScript/Generators.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "a359fdb8-bb9f-4138-f294-2f48f0ee5429",
+							"fieldName": "Emits",
+							"fieldParent": "d3c44e82-2ac1-4149-ad7c-cc773e31350e",
+							"fieldType": "neptune.Script",
+							"script": "file://script/neptune.Script/JavaScript/Emits.js",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "352fe3aa-be7c-4a2a-b0a3-fae42a6943e5",
+							"fieldName": "Namespace",
+							"fieldParent": "d3c44e82-2ac1-4149-ad7c-cc773e31350e",
+							"fieldType": "neptune.Typescript",
+							"script": "file://script/neptune.Typescript/JavaScript/Namespace.ts",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						}
+					]
+				},
+				{
+					"fieldNo": "f6e548f0-87bb-418a-dbd2-8519fd2589e5",
+					"fieldName": "Events",
+					"fieldParent": 99999,
+					"fieldType": "neptune.folder",
+					"script": "",
+					"customComponent": false,
+					"request": [],
+					"response": [],
+					"attributes": [],
+					"data": [
+						{
+							"fieldNo": "192ea6f3-ea56-4cdd-9dd0-c0b5b2fd66d7",
+							"fieldName": "SocketConnection",
+							"fieldParent": "f6e548f0-87bb-418a-dbd2-8519fd2589e5",
+							"fieldType": "neptune.events.Socket",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "connect",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.events.Socket/SocketConnection/connect.js",
+									"language": "javascript",
+									"translation": []
+								},
+								{
+									"attribute": "disconnect",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.events.Socket/SocketConnection/disconnect.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "44fc2a95-87bb-4576-ea38-7c3b554b3230",
+							"fieldName": "UserJoinedListener",
+							"fieldParent": "f6e548f0-87bb-418a-dbd2-8519fd2589e5",
+							"fieldType": "neptune.events.Listener",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "event",
+									"grouping": "Properties",
+									"value": "userJoined",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "action",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.events.Listener/UserJoinedListener/action.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "d7434c64-3829-4e31-828e-723617c7816b",
+							"fieldName": "SendUserDataListener",
+							"fieldParent": "f6e548f0-87bb-418a-dbd2-8519fd2589e5",
+							"fieldType": "neptune.events.Listener",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "event",
+									"grouping": "Properties",
+									"value": "sendUserData",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "action",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.events.Listener/SendUserDataListener/action.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "bf5cf98e-6558-429e-fcbc-f95e6ec91a78",
+							"fieldName": "UpdateLocationListener",
+							"fieldParent": "f6e548f0-87bb-418a-dbd2-8519fd2589e5",
+							"fieldType": "neptune.events.Listener",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "event",
+									"grouping": "Properties",
+									"value": "updateLocation",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "action",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.events.Listener/UpdateLocationListener/action.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						},
+						{
+							"fieldNo": "a506d865-9244-4943-cc7c-10cd4688bebe",
+							"fieldName": "UserLeftListener",
+							"fieldParent": "f6e548f0-87bb-418a-dbd2-8519fd2589e5",
+							"fieldType": "neptune.events.Listener",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "event",
+									"grouping": "Properties",
+									"value": "userLeft",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "action",
+									"grouping": "Events",
+									"value": "Anonymous Function",
+									"script": "file://event/neptune.events.Listener/UserLeftListener/action.js",
+									"language": "javascript",
+									"translation": []
+								}
+							],
+							"data": []
+						}
+					]
+				}
+			]
+		},
+		{
+			"fieldNo": 99998,
+			"data": []
+		}
+	],
+	"componentInterface": [],
+	"ver": "24.11.08.1002",
+	"application": "location_sharing",
+	"title": "",
+	"description": "",
+	"enableFileStorage": false,
+	"enableManifest": false,
+	"enableStylesheet": true,
+	"enableObfuscate": false,
+	"onlyRunLaunchpad": false,
+	"disabled": false,
+	"loadLaunchpadCode": null,
+	"loadApplicationCode": null,
+	"appType": "A",
+	"ui5_m": true,
+	"ui5_f": false,
+	"ui5_table": false,
+	"ui5_tnt": false,
+	"ui5_uxap": false,
+	"ui5_chart": false,
+	"ui5_theme": "sap_horizon",
+	"ui5_version": "",
+	"ui5_language": null,
+	"ui5_url": "",
+	"cus_theme": "",
+	"css": "file:///css.css",
+	"compiledCss": "file://script/undefined/undefined.script",
+	"header": "file:///header.html",
+	"manifest": "",
+	"globalScript": null,
+	"deleted": false,
+	"libHighchart": false,
+	"libHighmap": false,
+	"publicAccess": false,
+	"ui5_bootstrap": false,
+	"ui5_ionic": false,
+	"useV2AppHandler": false,
+	"compilerTarget": 3,
+	"tabWidth": null,
+	"printWidth": null,
+	"generateVersionOnActivation": false,
+	"activationHistoryCount": 0,
+	"apis": [],
+	"package": "0b679f86-ad1d-43fc-91d3-0cb30baf5239"
+}

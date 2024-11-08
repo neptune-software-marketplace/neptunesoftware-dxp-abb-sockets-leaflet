@@ -1,0 +1,15 @@
+{
+	"id": "2e049211-5f9c-43bf-9cd9-691001cd976d",
+	"createdAt": "2024-11-07T09:30:11.000Z",
+	"createdBy": "admin",
+	"name": "sendUserData",
+	"description": null,
+	"eventAction": "AppEvent",
+	"scriptId": null,
+	"jobId": null,
+	"workflowId": null,
+	"package": "0b679f86-ad1d-43fc-91d3-0cb30baf5239",
+	"script": null,
+	"job": null,
+	"workflow": null
+}

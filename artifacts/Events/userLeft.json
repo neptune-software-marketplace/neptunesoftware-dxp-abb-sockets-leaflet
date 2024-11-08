@@ -1,0 +1,15 @@
+{
+	"id": "1e0dd769-fa3c-48ce-a837-39e758ac3a6b",
+	"createdAt": "2024-11-07T09:29:37.000Z",
+	"createdBy": "admin",
+	"name": "userLeft",
+	"description": null,
+	"eventAction": "AppEvent",
+	"scriptId": null,
+	"jobId": null,
+	"workflowId": null,
+	"package": "0b679f86-ad1d-43fc-91d3-0cb30baf5239",
+	"script": null,
+	"job": null,
+	"workflow": null
+}

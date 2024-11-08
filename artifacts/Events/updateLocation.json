@@ -1,0 +1,15 @@
+{
+	"id": "726e15d8-62f0-408a-931a-828831917983",
+	"createdAt": "2024-11-07T09:30:39.000Z",
+	"createdBy": "admin",
+	"name": "updateLocation",
+	"description": null,
+	"eventAction": "AppEvent",
+	"scriptId": null,
+	"jobId": null,
+	"workflowId": null,
+	"package": "0b679f86-ad1d-43fc-91d3-0cb30baf5239",
+	"script": null,
+	"job": null,
+	"workflow": null
+}
