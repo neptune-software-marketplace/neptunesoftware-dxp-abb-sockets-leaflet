@@ -38,7 +38,7 @@
 								{
 									"attribute": "description",
 									"grouping": "Properties",
-									"value": "Call the 'initializeUser' function  in the console to start the mock streaming data generation",
+									"value": "Enter your name and select an area to simulate real-time GPS location sharing. Once started, your marker will move along a predefined path, simulating live GPS coordinate streaming. Your location will be visible to other connected users, and you'll see their markers moving in real-time on the map. While this demo uses simulated paths, the same architecture can be extended to handle actual GPS data for real-world location tracking applications.",
 									"script": "",
 									"translation": []
 								},
@@ -65,6 +65,215 @@
 								}
 							],
 							"data": []
+						},
+						{
+							"fieldNo": "451dc7a5-ece7-4f9f-c810-5421d389e669",
+							"fieldName": "HBox",
+							"fieldParent": "ed693d7a-e776-465e-d818-8cd4e5495ac8",
+							"fieldType": "sap.m.HBox",
+							"script": "",
+							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [
+								{
+									"attribute": "renderType",
+									"grouping": "Properties",
+									"value": "Bare",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "justifyContent",
+									"grouping": "Properties",
+									"value": "SpaceAround",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignItems",
+									"grouping": "Properties",
+									"value": "Center",
+									"script": "",
+									"translation": []
+								},
+								{
+									"attribute": "alignContent",
+									"grouping": "Properties",
+									"value": "SpaceAround",
+									"script": "",
+									"translation": []
+								}
+							],
+							"data": [
+								{
+									"fieldNo": "4e5f765c-aecd-42f7-da19-924cd0b0ce33",
+									"fieldName": "SimpleForm",
+									"fieldParent": "451dc7a5-ece7-4f9f-c810-5421d389e669",
+									"fieldType": "sap.ui.layout.form.SimpleForm",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "editable",
+											"grouping": "Properties",
+											"value": "true",
+											"script": "",
+											"translation": []
+										},
+										{
+											"attribute": "width",
+											"grouping": "Properties",
+											"value": "50%",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "0c938d48-d7fb-411b-8c6f-6b05a87477d0",
+											"fieldName": "Label",
+											"fieldParent": "4e5f765c-aecd-42f7-da19-924cd0b0ce33",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Name",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "21527a7a-b115-4613-b139-7f4099f22db6",
+											"fieldName": "Input",
+											"fieldParent": "4e5f765c-aecd-42f7-da19-924cd0b0ce33",
+											"fieldType": "sap.m.Input",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "placeholder",
+													"grouping": "Properties",
+													"value": "John",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "deb8d5a5-0505-45f0-8919-bb801cf9c2d6",
+											"fieldName": "Label1",
+											"fieldParent": "4e5f765c-aecd-42f7-da19-924cd0b0ce33",
+											"fieldType": "sap.m.Label",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Location",
+													"script": "",
+													"translation": []
+												}
+											],
+											"data": []
+										},
+										{
+											"fieldNo": "dc1af9ea-0e05-456c-ff28-74d276b9f6c8",
+											"fieldName": "Select",
+											"fieldParent": "4e5f765c-aecd-42f7-da19-924cd0b0ce33",
+											"fieldType": "sap.m.Select",
+											"script": "",
+											"customComponent": false,
+											"bindingType": "h",
+											"bindingSource": "DataModel",
+											"bindingParentID": "41d3be89-3f3b-4fe3-b56c-f49ba16d2f1c",
+											"modelPath": "Locations>/",
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": [
+												{
+													"fieldNo": "254f146b-2dba-4de6-bee8-a97e7d1721a6",
+													"fieldName": "Item",
+													"fieldParent": "dc1af9ea-0e05-456c-ff28-74d276b9f6c8",
+													"fieldType": "sap.ui.core.Item",
+													"script": "",
+													"customComponent": false,
+													"request": [],
+													"response": [],
+													"attributes": [
+														{
+															"attribute": "text",
+															"grouping": "Properties",
+															"value": "{Locations>name}",
+															"script": "",
+															"translation": []
+														},
+														{
+															"attribute": "key",
+															"grouping": "Properties",
+															"value": "{Locations>name}",
+															"script": "",
+															"translation": []
+														}
+													],
+													"data": []
+												}
+											]
+										},
+										{
+											"fieldNo": "f78240ce-b97f-46e9-91e1-1ee0645f22f7",
+											"fieldName": "Button",
+											"fieldParent": "4e5f765c-aecd-42f7-da19-924cd0b0ce33",
+											"fieldType": "sap.m.Button",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [
+												{
+													"attribute": "type",
+													"grouping": "Properties",
+													"value": "Emphasized",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "text",
+													"grouping": "Properties",
+													"value": "Simulate!",
+													"script": "",
+													"translation": []
+												},
+												{
+													"attribute": "press",
+													"grouping": "Events",
+													"value": "Anonymous Function",
+													"script": "file://event/sap.m.Button/Button/press.js",
+													"language": "javascript",
+													"translation": []
+												}
+											],
+											"data": []
+										}
+									]
+								}
+							]
 						}
 					]
 				},
@@ -113,6 +322,39 @@
 								}
 							],
 							"data": [
+								{
+									"fieldNo": "9f8fcb17-9946-4b3a-ff63-ffc784c95ca2",
+									"fieldName": "Left",
+									"fieldParent": "f703b9c1-19ec-40d1-9bef-6afa74e95625",
+									"fieldType": "neptune.BarContent",
+									"script": "",
+									"customComponent": false,
+									"request": [],
+									"response": [],
+									"attributes": [
+										{
+											"attribute": "position",
+											"grouping": "Parent",
+											"value": "ContentLeft",
+											"script": "",
+											"translation": []
+										}
+									],
+									"data": [
+										{
+											"fieldNo": "286074b2-7129-4122-e5d3-589d6ca3d305",
+											"fieldName": "TitleName",
+											"fieldParent": "9f8fcb17-9946-4b3a-ff63-ffc784c95ca2",
+											"fieldType": "sap.m.Title",
+											"script": "",
+											"customComponent": false,
+											"request": [],
+											"response": [],
+											"attributes": [],
+											"data": []
+										}
+									]
+								},
 								{
 									"fieldNo": "53e5f151-45d4-47c2-b2a6-b676da1a9630",
 									"fieldName": "Middle",
@@ -206,6 +448,21 @@
 							"fieldType": "neptune.Script",
 							"script": "file://script/neptune.Script/Data/Data.js",
 							"customComponent": false,
+							"request": [],
+							"response": [],
+							"attributes": [],
+							"data": []
+						},
+						{
+							"fieldNo": "41d3be89-3f3b-4fe3-b56c-f49ba16d2f1c",
+							"fieldName": "Locations",
+							"fieldParent": "a2215262-b7b3-4e59-b786-ed948d0e67ac",
+							"fieldType": "neptune.model",
+							"script": "",
+							"customComponent": false,
+							"bindingValue": "Generic Array",
+							"bindingType": "h",
+							"bindingSource": "P9",
 							"request": [],
 							"response": [],
 							"attributes": [],
@@ -424,7 +681,7 @@
 		}
 	],
 	"componentInterface": [],
-	"ver": "24.11.08.1002",
+	"ver": "24.11.10.2104",
 	"application": "location_sharing",
 	"title": "",
 	"description": "",

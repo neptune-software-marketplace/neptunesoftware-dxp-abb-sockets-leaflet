@@ -5,7 +5,6 @@ function triggerUserJoinedTrigger(data) {
     Mapping.socketUsers.set(data.userId, true);
     Title.setText(`Number of users: ${Mapping.socketUsers.size}`);
 
-    // sap.m.MessageToast.show(`User ${data.userId} has connected.`);
     socket.emit("trigger", {
         event: "userJoined",
         data,

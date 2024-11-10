@@ -5,6 +5,7 @@ namespace Mapping {
     export let myGenerator = null;
     export let myUserId = null;
     export let redisConnected = true;
+    export let isUserConnected = false;
 
     function renderMap() {
         HTMLObject.setVisible(true);
@@ -39,10 +40,12 @@ namespace Mapping {
 
     export function initializeUser(userId: string, constructorData: any) {
         if (!redisConnected) {
-            sap.m.MessageToast.show("Redis not running or cannot establish connection to websocket.");
+            sap.m.MessageToast.show(
+                "Redis not running or cannot establish connection to websocket."
+            );
             return;
         }
-        
+
         if (socketUsers.has(userId)) {
             sap.m.MessageToast.show("User already exists.");
             return;
@@ -51,13 +54,18 @@ namespace Mapping {
         if (myGenerator) {
             sap.m.MessageToast.show("Can only load one user per session.");
             return;
-        };
+        }
 
         //@ts-ignore
         socketUsers.set(userId);
-        Title.setText(`Number of users: ${socketUsers.size}`);
 
+        setTimeout(() => {
+            isUserConnected = false;
+        }, 100);
         
+        Title.setText(`Number of users: ${socketUsers.size}`);
+        TitleName.setText(`Current user: ${userId}`);
+
         renderMap();
 
         myUserId = userId;
@@ -93,6 +101,4 @@ namespace Mapping {
             });
         }
     });
-
-    (window as any).initializeUser = initializeUser;
 }

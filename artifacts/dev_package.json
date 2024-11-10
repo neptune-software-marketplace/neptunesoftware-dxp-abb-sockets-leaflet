@@ -7,7 +7,7 @@
 	},
 	"name": "neptunesoftware-dxp-abb-sockets-leaflet",
 	"description": "A Redis example with realtime location sharing",
-	"ver": "24.11.08.1035",
+	"ver": "24.11.08.1038",
 	"enableCICD": true,
 	"apps": [
 		{
